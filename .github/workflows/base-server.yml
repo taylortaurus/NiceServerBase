@@ -36,4 +36,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: taylortaurus/nice-server-base:latest
+          tags: taylortaurus/base-server:latest

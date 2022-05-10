@@ -1,5 +1,5 @@
 FROM python:3.8.12
-ARG IMAGE_NAME=nice-server-base
+ARG IMAGE_NAME=base-server
 COPY . /${IMAGE_NAME}
 WORKDIR /${IMAGE_NAME}
 ENV TZ=Asia/Shanghai \
