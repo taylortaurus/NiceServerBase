@@ -2,7 +2,7 @@ name: NiceServerBase CI
 
 # on:
 #   push:
-#     tags: image.*
+#     tags: image-*
 
 on:
   push:
